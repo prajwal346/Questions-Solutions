@@ -1,0 +1,81 @@
+.contactform {
+    padding-top: 154px;
+}
+
+
+.contactform form div {
+    padding: 9px 0;
+}
+
+.contactform form #name {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-top: 2px;
+
+}
+
+.contactform form #emailHelp {
+    font-size: 10px;
+    color: darkviolet;
+    padding-bottom: 0px;
+
+}
+
+.contactform form .form-label {
+    font-size: 17px;
+}
+
+
+.contactform form #clientemail {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-top: 2px;
+
+}
+
+.contactform form #clientphone {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-top: 2px;
+    padding-top: 0px;
+
+}
+
+.contactform form #enquiry {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-top: 2px;
+    padding-top: 0px;
+
+}
+
+.btn-sm {
+    color: rgb(246, 245, 244);
+    background-color: rgb(4, 171, 249);
+    border-radius: 12px;
+    margin-top: 11px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.btn-sm:hover {
+    color: white;
+    background-color: black;
+}

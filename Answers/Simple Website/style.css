@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    /* background-color: red; */
+    position: absolute;
+    background-color: rgba(175, 169, 169, 0.605);
+    width: 202px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding-left: 15px;
+    list-style: none;
+
+
+}
+
+.sidebar nav li {
+    margin-top: 62px;
+    font-size: 24px;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: antiquewhite; */
+    display: flex;
+    width: 90vw;
+    padding: 10px;
+}
+
+.infocontainer {
+    /* background-color: aqua; */
+    width: 80vw;
+    height: 58vh;
+    margin: auto;
+    margin-top: 109px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 44px;
+}
+
+.name {
+    font-size: 33px;
+    padding-top: 2px;
+    font-weight: 100s;
+}
+
+.about {
+    font-size: 27px;
+
+}
+
+.aboutme {
+    font-size: 20px;
+}
+
+.btn {
+    color: rgb(246, 245, 244);
+    background-color: rgb(4, 171, 249);
+    border-radius: 12px;
+    margin-top: 11px;
+    padding: 6px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.devpic img {
+    height: 58vh;
+}
+
+
+.container {
+    display: flex;
+}
+.sidebarGo{
+        transform: translate(-415px, 0px);
+        position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    position: absolute;
+    margin-left: 148px;
+}
+@media (max-width:653px) {
+    *{
+        /* background-color: rgb(225, 149, 149); */
+    }
+    .devpic{
+        display: none;
+    }
+    /* .sidebar{
+        width: 38vw;
+    } */
+/* .sidebar{ */
+        /* transform: translate(-415px, 0px);
+        position: absolute; */
+    /* } */
+}

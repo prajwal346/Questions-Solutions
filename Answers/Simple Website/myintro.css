@@ -1,0 +1,42 @@
+.intro h1{
+    margin-top: 18px;
+    padding-bottom: 12px;
+    margin-left: 35px;
+}
+
+.introitem{
+    text-align:justify ;
+    margin-left: 35px;
+}
+.intro h2{
+    margin-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 35px;
+}
+.skillcontainer{
+    margin-left: 35px;
+}
+.skill{
+    width: 15vw;
+    height: 4px;
+}
+
+
+.hundred{
+    width:15vw ;
+    background-color: red;
+}
+
+.fifty{
+    width: 8vw;
+    background-color: yellow;
+}
+
+.twenty-five{
+    width: 4vw;
+    background-color: aqua;
+}
+.devpic{
+    margin-top: 12px;
+    margin-left: 35px;
+}
